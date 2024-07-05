@@ -1,7 +1,6 @@
 import Categoria from "./Categoria";
 
-export default interface Produtos
-{
+export default interface Produtos {
     id:	number;
     nome:	string;
     descricao:	string;
