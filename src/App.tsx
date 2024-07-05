@@ -5,7 +5,7 @@ import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import ListaCategorias from './components/categorias/ListaCategorias';
-import FormularioCategoria from './components/categorias/ListaCategorias';
+import FormularioCategoria from './components/categorias/FormularioCategoria';
 import DeletarCategoria from './components/categorias/DeletarCategoria';
 
 function App() {
