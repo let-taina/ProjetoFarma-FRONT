@@ -14,9 +14,10 @@ function App() {
     <>
     <BrowserRouter>
       <Navbar/>
-      <div>
+      <div className='min-h-[90vh]'>
       <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/home" element={<Home />} />
       <Route path="/categorias" element={<ListaCategorias/>} />
               <Route path="/cadastrarCategoria" element={<FormularioCategoria/>} />
               <Route path="/editarCategoria/:id" element={<FormularioCategoria />} />

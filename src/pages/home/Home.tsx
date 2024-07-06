@@ -1,12 +1,12 @@
 import React from 'react';
-import homeLogo from '../../assets/img/logo.jfif'
+import homeLogo from '../../assets/img/logo2.jpg'
 import './Home.css';
 
 
 function Home() {
     return (
         <>
-        <div className="bg-indigo-900 flex justify-center">
+        <div className="bg-green-700 flex justify-center">
           <div className='container grid grid-cols-2 text-white'>
             <div className="flex flex-col gap-4 items-center justify-center py-4">
               <h2 className='text-5xl font-bold'>Seja bem vindo(a)!</h2>
@@ -16,7 +16,7 @@ function Home() {
               </div>
           </div>
           <div className="flex justify-center ">
-              <img src={homeLogo} alt="" className='w-2/3' />
+              <img src={homeLogo} alt="" className='justify-center py-7 w-1/3 rounded-full overflow-hidden'/>
         </div>
         </div>
         </div>
